@@ -1,16 +1,21 @@
 # skeuomorph_mobile_banking
 
-A new Flutter project.
+This is a test flutter project for practice in skeuomorph design implementation.
 
-## Getting Started
+## About 
 
-This project is a starting point for a Flutter application.
+Found this excellent design [on Dribbble](https://dribbble.com/shots/7994421-Skeuomorph-Mobile-Banking)
 
-A few resources to get you started if this is your first Flutter project:
+There is only a statistic screen with switching between light and dark themes. Theme state stored in [shared preferences](https://pub.dev/packages/shared_preferences). I get state and change it using [Provider](https://pub.dev/packages/provider).
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+The visual effect of convex/concave widgets is achieved by combining inner and outer light and dark shadows.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+And my favourite part is the pie chart. I didn't find any ready solution, so I painted it completely on canvas. 
+
+See result below. 
+
+## How it look
+
+### Screenshots
+![light](light.jpg)
+![dark](dark.jpg)

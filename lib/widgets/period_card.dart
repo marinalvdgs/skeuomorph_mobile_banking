@@ -6,7 +6,7 @@ class PeriodCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 16.0),
+      padding: const EdgeInsets.symmetric(vertical: 1.0),
       child: Container(
         constraints: BoxConstraints(minHeight: 64.0),
         margin: EdgeInsets.symmetric(horizontal: 24.0, vertical: 8.0),
