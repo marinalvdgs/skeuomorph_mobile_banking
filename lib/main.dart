@@ -36,6 +36,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     AppTheme theme = AppTheme();
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
         theme: theme.getTheme(Provider.of<ThemeSettings>(context).isDarkMode),
         home: StatisticLightScreen());
   }

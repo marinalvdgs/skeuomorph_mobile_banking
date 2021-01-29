@@ -18,7 +18,7 @@ class _SwipeButtonState extends State<SwipeButton>
   @override
   void initState() {
     _slideController =
-        AnimationController(duration: Duration(milliseconds: 800), vsync: this);
+        AnimationController(duration: Duration(milliseconds: 400), vsync: this);
     position = Tween<Offset>(begin: Offset(0.0, 0.0), end: Offset(-0.5, 0.0))
         .animate(CurvedAnimation(
             parent: _slideController, curve: Curves.decelerate));
